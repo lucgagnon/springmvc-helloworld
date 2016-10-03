@@ -35,7 +35,8 @@ RUN echo '{ "allow_root": true }' > /root/.bowerrc
 COPY . /app
 WORKDIR /app
 
-RUN mvn clean install
+RUN ls -l
+RUN mvn install
 
 RUN mkdir -p /opt/tomcat/webapps/
 
