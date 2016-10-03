@@ -1,9 +1,9 @@
 version: '1.0'
 
 steps:
-    step-name:
+    build-step:
       type: build
       description: Maven example
       dockerfile: Dockerfile
-      image-name: ncodefresh/ncodefresh/springmvchelloworld
+      image-name: ncodefresh/springmvchelloworld
       tag: ${{CF_BRANCH}}
