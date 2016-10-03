@@ -17,7 +17,5 @@
     If you want to see if the controller really works just click <a href="./ask">here</a>.
 </p>
 
-
-<b><i><a href="http://www.JohnathanMarkSmith.com">http://www.JohnathanMarkSmith.com</a></i></b>
 </body>
 </html>
