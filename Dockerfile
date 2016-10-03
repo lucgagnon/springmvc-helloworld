@@ -35,7 +35,7 @@ RUN ls -l target/
 
 #RUN unzip ./root/target/wars.zip -d /opt/tomcat/webapps/
 
-RUN cp target/springmvc-helloworld.war /opt/tomcat/webapps/
+RUN cp target/ROOT.war /opt/tomcat/webapps/
 
 RUN ls -l /opt/tomcat/webapps/
 
