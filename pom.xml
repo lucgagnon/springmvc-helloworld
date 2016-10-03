@@ -16,7 +16,6 @@
         <hibernate.version>4.1.1.Final</hibernate.version>
     </properties>
 
-
     <!-- Spring -->
     <dependencies>
 
@@ -179,12 +178,15 @@
     </dependencies>
 
     <build>
-
         <plugins>
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.0</version>
+                <!--<configuration>-->
+                    <!--<path>/</path>-->
+                    <!--<warFile>${project.build.directory}/springmvc-helloworld.war</warFile>-->
+                <!--</configuration>-->
             </plugin>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -196,7 +198,7 @@
             </plugin>
         </plugins>
 
-        <finalName>springmvc-helloworld</finalName>
+        <finalName>ROOT</finalName>
     </build>
 
 </project>

@@ -39,6 +39,6 @@ RUN cp target/springmvc-helloworld.war /opt/tomcat/webapps/
 
 RUN ls -l /opt/tomcat/webapps/
 
-#EXPOSE 8080
+EXPOSE 8080
 
-CMD [ "mvn", "tomcat7:run" ]
+#CMD [ "mvn", "tomcat7:run" ]
