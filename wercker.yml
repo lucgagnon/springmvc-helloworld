@@ -49,4 +49,3 @@ build:
         code: |
           echo "python version $(python --version) running"
           echo "pip version $(pip --version) running"
-I already have a wercker.yml, trigger a build now.
